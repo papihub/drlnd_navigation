@@ -100,6 +100,9 @@ We use Adam optimizer to backpropogate the loss and update weights.
 
 ## Future actions / steps
 In this implementation I sampled randomly from the replay buffer for training.
+
 Implementing priority queues can allow some of the agent to learn from important steps more times than other steps.
+
 Implement dual networks where we switch the target and local networks.
+
 Learn directly from raw images than from encoded states!!
